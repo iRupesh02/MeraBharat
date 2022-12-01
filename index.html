@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MeraBharat</title>
+
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- navigation bar -->
+  <script type="text/javascript">
+    document.getElementById('frmSearch').onsubmit = function () {
+      window.location = 'index.html ' + document.getElementById('txtSearch').value;
+      return false;
+    }
+  </script>
+
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/index.html" target="_parent">MeraBharat</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/index.html" target="_self">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about.html">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Tourist Place
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="/monuments.html#Monuments">Monuments</a></li>
+              <li><a class="dropdown-item" href="/monuments.html#mountains">Mountains</a></li>
+              <li><a class="dropdown-item" href="/monuments.html#temple">Temples</a></li>
+              <li><a class="dropdown-item" href="/monuments.html#national">National Parks</a></li>
+              <li><a class="dropdown-item" href="/monuments.html#beaches">Beaches</a></li>
+              <li><a class="dropdown-item" href="/monuments.html#cities">Famous Cities</a></li>
+
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" target="_blank"
+              href="https://traveltriangle.com/blog/famous-festivals-of-india/">Festivals</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.makemytrip.com/" target="_blank">makemytrip</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.youtube.com/watch?v=3SsK-cxlj_w" target="_blank">Tourism Video</a>
+          </li>
+
+
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- carosul -->
+  <div id="carouselExampleInterval" class="carousel slide n" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="images/mera1.jpg" height="450px" width="1400px" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="5000">
+        <img src="images/mera2.jpeg" height="450px" width="1400px" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="images/mera3.jpg" height="450px" width="1400px" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="images/img1.jpg" height="450px" width="1400px" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="images/img2.jpg" height="450px" width="1400px" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="images/img3.jpg" height="450px" width="1400px" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- information -->
+
+  <section class="head" id="info">
+    <div>
+      <h1>Mera Bharat</h1>
+      <p> Indian culture is popular across the world. Indian culture is considered as the oldest and most diverse
+        cultures of the world. People of different religions and cultures live here with strong bond. Indian people are
+        highly devoted to their culture and religion. The Indian literature, philosophy, art and music have heavily been
+        influenced by Indian culture and Dharmic religions throughout the history of India.
+
+        There has been prominent fusion of cultures between different religions and people of India over the past
+        centuries. The most dominant religions in India are Hinduism, Jainism, Sikhism and Buddhism though other
+        religions such as Islam and Christianity are also present widely. Our country is culturally and religiously one
+        of the most diverse country across the world.</p>
+    </div>
+    <!-- scroll -->
+    <div class="scrol">
+      <marquee behavior="alternate" direction="left">
+        <img class="im" src="images/citi1.jpg" width="400" height="200" alt="" />
+        <img class="im" src="images/citi2.jpg" width="400" height="200" alt="" />
+        <img class="im" src="images/citi3.jpg" width="400" height="200" alt="" />
+        <img class="im" src="images/citi4.webp" width="400" height="200" alt="" />
+        <img class="im" src="images/citi5.jpg" width="400" height="200" alt="" />
+        <img class="im" src="images/citi6.jpg" width="400" height="200" alt="" />
+        <img class="im" src="images/citi7.jpg" width="400" height="200" alt="" />
+      </marquee>
+    </div>
+    <div>
+      <a class="he" href="/monuments.html#Monuments">
+        <h1>Majestic: Monuments of India</h1>
+      </a>
+      <p>India is one of the most beautiful countries in the world and is best known for its colourful culture and
+        fascinating heritage. Its grand monuments, like the Taj Mahal act as strong pillars of the rich and deep history
+        that India possesses. From their splendid architecture to a strong legacy, the historical monuments of India
+        speak volumes. Most of these Indian monuments were primarily built under the regime of Rajputana, Dravidian and
+        Mughal emperors. The monuments of India are speaking stones of the glory of its rulers and the brilliance of
+        artisans in ancient India. Due to the incredible beauty of India and the constant efforts of the government in
+        maintaining the heritage sites, India tourism has flourished rapidly witnessing an increase in the number of
+        travellers from all around the world. Some of the well-preserved monuments in the different parts of the country
+        are Red Fort (North), Sun Temple Konark (East), Amer Fort (West) and Charminar (South).</p>
+    </div>
+    <!-- scroll -->
+    <div class="scrol">
+      <marquee behavior="alternate" direction="left">
+        <img class="im" src="images/img4.jpg" width="400" height="200" alt="" />
+        <img class="im" src="images/img5.jpg" width="400" height="200" alt="" />
+        <img class="im" src="images/img6.jpg" width="400" height="200" alt="" />
+        <img class="im" src="images/img7.jpg" width="400" height="200" alt="" />
+        <img class="im" src="images/img8.jpg" width="400" height="200" alt="" />
+        <img class="im" src="images/img9.jpg" width="400" height="200" alt="" />
+        <img class="im" src="images/img10.jpg" width="400" height="200" alt="" />
+      </marquee>
+    </div>
+
+    <div>
+      <a class="he" href="/monuments.html#temple">
+        <h1>Temples of India</h1>
+      </a>
+
+      <p>India being part of the world’s oldest civilizations is a land of rich history, countless beliefs, traditions
+        and legends surrounding the religions. India takes pride in the country’s rich cultural and religious history as
+        it is the birth land of the traditions of Hinduism, Jainism, Buddhism and Sikhism. India is a land where people
+        of different religious beliefs live in harmony and brotherhood. Hinduism is believed to be the world’s oldest
+        religion. Unlike other religions, Hinduism does not have a founder but is instead a fusion of religions. Various
+        ancient manuscripts and scholars describe the religion as a traditional way of living, a religion whose
+        beginning and ending cannot be traced.</p>
+    </div>
+    <!-- scroll -->
+    <div class="scrol">
+      <marquee behavior="alternate" direction="left">
+        <img class="im" src="images/img11.jpg" width="400" height="200" alt="" />
+        <img class="im" src="images/img12.jpg" width="400" height="200" alt="" />
+        <img class="im" src="images/img13.jpg" width="400" height="200" alt="" />
+        <img class="im" src="images/img14.jpg" width="400" height="200" alt="" />
+        <img class="im" src="images/img16.jpg" width="400" height="200" alt="" />
+        <img class="im" src="images/img17.jpg" width="400" height="200" alt="" />
+        <img class="im" src="images/img15.webp" width="400" height="200" alt="" />
+      </marquee>
+    </div>
+
+    <div>
+      <a class="he" href="/monuments.html#mountains">
+        <h1>Mountains of India</h1>
+      </a>
+      <p>India is home to some of the tallest and gallant mountain ranges in the world. These ranges come with some of
+        the most beautiful sceneries and ecosystems in the world. The diversified altitudes and ranges feature a wide
+        range of flora and fauna. You will get to see tropical and subtropical forests at the foothills of the Himalayan
+        Mountain Ranges. The views of the snowy mountains in Himachal Pradesh and Kashmir will simply leave you
+        spellbound.
+        <br>
+        Mountain ranges such as the Western Ghats, Himalaya, Aravalli, Eastern Ghats, Nilgiri, Shivalik, Vindhya, and
+        Satpura mountain ranges make a significant contribution towards maintaining the beauty of geographical features,
+        landscape, and balanced environment. Covered with dense and big forests, accommodating a wide variety of plants
+        and animals, the mountains of India are prominent tourist attractions in the country.
+      </p>
+    </div>
+    <!-- scroll -->
+    <div class="scrol">
+      <marquee behavior="alternate" direction="left">
+        <img class="im" src="images/img18.jpg" width="400" height="200" alt="" />
+        <img class="im" src="images/img19.jpg" width="400" height="200" alt="" />
+        <img class="im" src="images/img20.jpg" width="400" height="200" alt="" />
+        <img class="im" src="images/img21.jpg" width="400" height="200" alt="" />
+        <img class="im" src="images/img23.jpg" width="400" height="200" alt="" />
+        <img class="im" src="images/img24.jpg" width="400" height="200" alt="" />
+        <img class="im" src="images/img22.webp" width="400" height="200" alt="" />
+      </marquee>
+    </div>
+  </section>
+
+  <!-- Footer -->
+
+  <footer id="fot">
+   <p class="float"> <a class="he" href="#">Back to Top <i class="fa fa-arrow-up"></i></a></p>
+    <div class="pad"><a class="he" href=" mailto:rupesh965140@gmail.com"> <i class="social-icon fas fa-envelope "></i></a>
+    <a class="he" href="https://mobile.twitter.com/rupeshk36482778"> <i class="social-icon fab fa-twitter "></i></a>
+    <a class="he" href="https://www.instagram.com/thekasaudhan/"> <i class="social-icon fab fa-instagram "></i></a>
+    <a class="he" href="https://m.facebook.com/100017629501038/"> <i class="social-icon fab fa-facebook "></i></a>
+    <a class="he" href="https://www.linkedin.com/mwlite/in/rupesh-kumar-gupta-708898226"><i
+        class="social-icon fab fa-linkedin" aria-hidden="true"></i>
+    </a></div>
+   
+    <p>© Copyright MeraBharat</p>
+
+   
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+
+
+</html>
