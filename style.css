@@ -1,0 +1,89 @@
+.n{
+    margin-top: 30px;
+}
+
+.head {
+    padding-top: 30px;
+    padding-left: 20px;
+    background-color: #E1F5F2;
+
+}
+
+.he {
+    text-decoration: none;
+    color: black;
+
+}
+
+.he:hover {
+    color: #009EFF;
+}
+
+p {
+    padding-right: 20px;
+}
+
+.image {
+    width: 1400;
+    height: 400;
+}
+
+.im {
+    padding: 15px;
+}
+
+
+.social-icon {
+    margin: 10px 10px;
+
+}
+
+/* monumnets */
+
+
+#Monuments,
+#temple,
+#mountains,#national,#beaches,#cities {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+#fot {
+    text-align: center;
+    background-color: #9ED5C5;
+    padding: 10px;
+    }
+.float{
+    float: right;
+}
+.pad{
+    padding-left: 8%;
+}
+
+/* about */
+#about{
+    
+    background-color: #D6E4E5;
+    text-align: center;
+    
+}
+
+.heading{
+    font-family: 'M PLUS 1', sans-serif;
+    padding-top: 2%;
+}
+.par{
+    /* line-height: 1.5rem; */
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.make{
+    text-decoration: none;
+    color: black;
+}
+.make:hover{
+    color: #009EFF;
+}
+#fote{
+    margin-top: 10%;
+}
