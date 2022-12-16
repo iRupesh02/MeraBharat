@@ -6,7 +6,7 @@
     padding-top: 30px;
     padding-left: 20px;
     background-color: #E1F5F2;
-    display: justify-content;
+   text-align: justify;
 
 }
 
@@ -66,7 +66,7 @@ p {
     
     background-color: #D6E4E5;
     text-align: center;
-    
+    text-align: justify;
 }
 
 .heading{
