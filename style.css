@@ -77,6 +77,10 @@ p {
     /* line-height: 1.5rem; */
     padding-left: 2%;
     padding-right: 2%;
+text-align: justify;
+}
+.pp{
+text-align: justify;
 }
 .make{
     text-decoration: none;
